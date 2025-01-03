@@ -1,0 +1,48 @@
+/* 全域樣式 */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 導覽列固定在頂部 */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000; /* 設置連結顏色 */
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #FFB6C1; /* 選中連結顏色 */
+}
+
+/* 首頁背景圖片 */
+.home-section {
+  height: 100vh;
+  background-image: url('your-background-image.jpg'); /* 用你的背景圖替換此路徑 */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* 文字樣式 */
+.home-section h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 設定其他頁面的設計 */
+body, html {
+  height: 100%;
+}
+
+/* 增加頁面間距，避免被固定的導航欄遮住 */
+body {
+  padding-top: 80px;
+}
